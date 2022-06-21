@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-21T15:47:02 GST" name="Default suite" finished-at="2022-06-21T15:47:08 GST" duration-ms="5673">
+    <groups>
+    </groups>
+    <test started-at="2022-06-21T15:47:02 GST" name="Default test" finished-at="2022-06-21T15:47:08 GST" duration-ms="5673">
+      <class name="com.obs.tests.BaseTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.obs.tests.BaseTest@1e1a0406]" started-at="2022-06-21T15:47:02 GST" name="setUp" finished-at="2022-06-21T15:47:05 GST" duration-ms="2944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="setUp(java.lang.String)[pri:0, instance:com.obs.tests.BaseTest@1e1a0406]" started-at="2022-06-21T15:47:05 GST" name="setUp" finished-at="2022-06-21T15:47:08 GST" duration-ms="2693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.BaseTest@1e1a0406]" started-at="2022-06-21T15:47:08 GST" name="takeScreenShotOnFailure" finished-at="2022-06-21T15:47:08 GST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=setUp status=SUCCESS method=BaseTest.setUp(java.lang.String)[pri:0, instance:com.obs.tests.BaseTest@1e1a0406] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.obs.tests.BaseTest@1e1a0406]" started-at="2022-06-21T15:47:08 GST" name="afterTest" finished-at="2022-06-21T15:47:08 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.obs.tests.BaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
